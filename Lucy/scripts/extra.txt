@@ -1,0 +1,7 @@
+account, group, totalTweets, totalRetweetedTweets, totalReplyTweets, totalMediaTweets, totalRetweets, totalFavorites
+astro_Jfrancois,ESA,27,1,0,0,6,0
+astro_timpeake,ESA,200,46,104,63,68358,3645
+Thom_astro,ESA,200,45,31,64,7051,2265
+Astro_Alex,ESA,200,21,10,54,7123,12952
+AstroSamantha,ESA,200,28,23,177,124525,208059
+astro_luca,ESA,199,58,130,40,10779,988
