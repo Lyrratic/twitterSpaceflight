@@ -70,11 +70,11 @@ def getGroup(group_name):
     if group_name == "NASA": return NASA 
 
 for g in groups:
-	fout=open(g+"_replies.csv","a")
+	fout=open(g+"_retweets.csv","a")
 	# loop through group members:
 	group = getGroup(g)
 	print "now printing: " + g
 	for member in group:
-		for line in open("../2014data/" + member + "_users_replied.csv"):
+		for line in open("../2015data/" + member + "_users_retweeted.csv"):
 		    fout.write(line)
 fout.close()

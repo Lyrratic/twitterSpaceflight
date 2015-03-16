@@ -84,7 +84,7 @@ for g in groups:
 	# loop through group members:
 	group = getGroup(g)
 	print "now printing: " + g
-	for line in open("../2014data/orgs/" + g + "_replies.csv"):
+	for line in open("../2015data/orgs/" + g + "_replies.csv"):
 	    #print "line: " + line
 	    fixLine = line.replace("\n", "");
 	    if fixLine in ESA:
