@@ -1,0 +1,4 @@
+Unique followers: 68
+totalIdentified: 40
+totalUnidentified: 28
+var locations = [{"country": "saper", "name": "Peru", "value": 1}, {"country": "namex", "name": "Mexico", "value": 1}, {"country": "eunld", "name": "Netherlands", "value": 1}, {"country": "eugbr", "name": "United Kingdom", "value": 2}, {"country": "nacan", "name": "Canada", "value": 8}, {"country": "nausa", "name": "United States", "value": 27}]
