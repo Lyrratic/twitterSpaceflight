@@ -1,29 +1,151 @@
 tweet,retweetsCount,favoritesCount,timestamp
-"@Thom_astro: I will be offline for 10 days now, astronauts sometimes have holidays too! Merry Christmas everyone!",12,34,Fri Dec 19 10:43:16 +0000 2014
-"RT @LesEchos: Inde : lancement réussi d'une nouvelle fusée et d'une capsule spatiale habitable http://t.co/2FxdmPzs54",12,0,Thu Dec 18 08:25:52 +0000 2014
-"Safety training #AirFrance: putting out fires, using emergency equipment #BeReady Many similarities w/ISS http://t.co/SjNseWNoct",44,62,Tue Dec 16 07:33:05 +0000 2014
-"@cpamoa @Brigitte_Ba J'avoue avoir été tenté, il y a de ça quelques années à Paris...",0,1,Mon Dec 15 23:24:04 +0000 2014
-"L'air pas réveillé ;) MT @AFnewsroom Ajd, Th Pesquet, #astronaute et #pilote était aux commandes du vol #AF1306 @esa http://t.co/mAL1xkTO0z",23,52,Mon Dec 15 13:03:35 +0000 2014
-"@Jordan_D Je ne sais pas... Tente ta chance!",0,0,Fri Dec 12 13:59:43 +0000 2014
-"D'autres vols ISS d'un an? Conférence à Paris, jeudi 18 @Astro_Andreas @StationCDRKelly @Astro_Jeremy @Astro_Soichi http://t.co/mLagQVuTHN",2,2,Fri Dec 12 11:47:58 +0000 2014
-"@OlesyaIvanchina Merci! Joyeuses fêtes, Alessia!",0,0,Fri Dec 12 10:54:39 +0000 2014
-"Good bye #StarCity, see you in spring, now is time to fly back home and towards new adventures! http://t.co/cMTZj0Ksa4",15,31,Fri Dec 12 10:44:16 +0000 2014
-"Premier pas vers Mars!!! MT @ESA_fr @esa Décollage du vol de test d'#Orion http://t.co/2kH6CpKu1W",31,40,Fri Dec 05 12:25:11 +0000 2014
-"RT @cpamoa: Pour tout savoir des étapes de la mission d'aujourd'hui http://t.co/onI91vCHVE #Orion #EFT1 http://t.co/J37UL4wlC0",9,0,Fri Dec 05 12:24:27 +0000 2014
-"In space, you re-learn the simplest things, like drinking and eating. @Astro_Andreas demonstrates proper technique http://t.co/hE8SMVgnYN",16,21,Fri Dec 05 10:51:05 +0000 2014
-"RT @SpaceflightNow: Still want to see a rocket launch today? Live coverage of #Ariane5 launch at 3:38p EST: http://t.co/GvYMbZRXK1 #VA221 h…",162,0,Thu Dec 04 15:30:08 +0000 2014
-"La vidéo du vol en formation des 5 @Airbus A350 est sortie! Magnifiques images... et un ex-astronaute aux commandes https://t.co/9Mcsk2HLpS",31,27,Wed Dec 03 07:35:19 +0000 2014
-"Il faut souffrir pour avoir un siège de Soyuz moulé à sa taille (oui c'est moi au milieu!) http://t.co/jBieNIceUd",51,44,Tue Dec 02 15:02:15 +0000 2014
-"What's going on in this pic?!! Apendix operation? No! Gypsum bath for Soyuz seat liner molding http://t.co/J9r0grIo6w",12,20,Tue Dec 02 11:54:06 +0000 2014
-".@astro_luca did you say that I looked inspired on a pic the other day? CC @astro_timpeake @Astro_Alex @Astro_Andreas http://t.co/yY41SlmGiT",5,27,Tue Dec 02 10:21:40 +0000 2014
-"RT @sup_recherche: 'l’Espace= + que jamais une gde chance pour Europe :générateur de compétitivité, d’emplois, d’innovation, d’avancées sci…",8,0,Tue Dec 02 10:15:46 +0000 2014
-"RT @ISAE_officiel: Félicitations aux diplômés SUPAERO promo 2014 ! http://t.co/wfsnMJTj0K",10,0,Sat Nov 29 20:38:07 +0000 2014
-"RT @francediplo: Le #français est la 5e langue mondiale avec 274 millions de locuteurs et 125 millions d'apprenants ! #SFDK2014 http://t.co…",448,0,Sat Nov 29 09:22:18 +0000 2014
-"RT @HauteNormandie: Forum du savoir 29 janv accueille Thomas Pesquet, le 10ème français à s'envoler dans l'espace. Thème: l'exploration spa…",6,0,Fri Nov 28 14:19:03 +0000 2014
-"Approach to Paris CDG airport in the clouds https://t.co/UQCKljiN6s",18,39,Tue Nov 25 19:53:55 +0000 2014
-"One of the only pics we have from wilderness trg w/@NOLSedu, crew of @Astro_Kate7, P. Whitson, S. Kimbrough et al. http://t.co/dqSqAfMr31",5,10,Tue Nov 25 10:54:30 +0000 2014
-"RT @wakka44: Démantèlment du compte à rebours du #KSC http://t.co/yes1niWUC0",13,0,Mon Nov 24 21:00:42 +0000 2014
-"Godspeed @AstroSamantha, @AstroTerry and @AntonAstrey! We will be watching, and you're taking a part of us with you!",33,57,Sun Nov 23 17:15:45 +0000 2014
-"RT @TEDxParis: Notre talkist venue d'ailleurs ! Depuis 5 ans, les talkers @TEDxParis explorent pour nous les confins de l'#univers ! http:/…",11,0,Fri Nov 21 21:33:05 +0000 2014
-".@astro_tim @astro_timpeake nice design!",3,6,Fri Nov 21 21:28:20 +0000 2014
-"RT @marco_t: What happens in terms of Science on the Intl. @Space_Station? ISS Science Workshop live from @ESA_EAC https://t.co/XaI8wVmK6U …",21,0,Wed Nov 19 10:05:10 +0000 2014
+"RT @LesEchos: Inde : lancement réussi d'une nouvelle fusée et d'une capsule spatiale habitable http://t.co/2FxdmPzs54",12,0,2014-12-18 08:25:52
+"RT @cpamoa: Pour tout savoir des étapes de la mission d'aujourd'hui http://t.co/onI91vCHVE #Orion #EFT1 http://t.co/J37UL4wlC0",9,0,2014-12-05 12:24:27
+"RT @SpaceflightNow: Still want to see a rocket launch today? Live coverage of #Ariane5 launch at 3:38p EST: http://t.co/GvYMbZRXK1 #VA221 h…",162,0,2014-12-04 15:30:08
+"RT @sup_recherche: 'l’Espace= + que jamais une gde chance pour Europe :générateur de compétitivité, d’emplois, d’innovation, d’avancées sci…",8,0,2014-12-02 10:15:46
+"RT @ISAE_officiel: Félicitations aux diplômés SUPAERO promo 2014 ! http://t.co/wfsnMJTj0K",10,0,2014-11-29 20:38:07
+"RT @francediplo: Le #français est la 5e langue mondiale avec 274 millions de locuteurs et 125 millions d'apprenants ! #SFDK2014 http://t.co…",447,0,2014-11-29 09:22:18
+"RT @HauteNormandie: Forum du savoir 29 janv accueille Thomas Pesquet, le 10ème français à s'envoler dans l'espace. Thème: l'exploration spa…",6,0,2014-11-28 14:19:03
+"RT @wakka44: Démantèlment du compte à rebours du #KSC http://t.co/yes1niWUC0",13,0,2014-11-24 21:00:42
+"RT @TEDxParis: Notre talkist venue d'ailleurs ! Depuis 5 ans, les talkers @TEDxParis explorent pour nous les confins de l'#univers ! http:/…",11,0,2014-11-21 21:33:05
+"RT @marco_t: What happens in terms of Science on the Intl. @Space_Station? ISS Science Workshop live from @ESA_EAC https://t.co/XaI8wVmK6U …",21,0,2014-11-19 10:05:10
+"RT @AFnewsroom: Retrouvez Aude #Lemordant, #pilote #AirFrance et championne du monde de #voltige à 22h sur @lequipe21  cc @CNOFS http://t.c…",10,0,2014-11-13 13:31:12
+"RT @EU_ScienceChief: I think Europe just boldly went where no one else has gone before.  @esa @ESA_Rosetta #Philae2014 #Rosetta #rosettamis…",118,0,2014-11-12 16:49:56
+"RT @ESA_fr: TT 4 astronautes @esa s'entrainent à la Cité des étoiles: @astrosamantha @astro_andreas @astro_timpeake @Thom_astro https://t.c…",7,0,2014-10-29 11:35:24
+"RT @esaoperations: Pictures of @Thom_astro at GCTC available at http://t.co/wmNHaDh71n But what is he doing with his Sokol suit? http://t.c…",25,0,2014-10-24 13:46:12
+"RT @lemondefr: Apollo, Armstrong, astres : la NASA poste ses sons sur Internet (via @big_browser) http://t.co/StP2aEKjUf // http://t.co/ifF…",66,0,2014-10-24 13:43:54
+"RT @STFranceRussie: Visite de la cité des étoiles! #ESA @Thom_astro #Роскосмос http://t.co/RITPiWwUAm",12,0,2014-10-23 18:19:43
+"RT @asc_csa: . @Cmdr_Hadfield et @Thom_astro sont deux des juges du défi vidéo du concours #HISAChallenge 2014! http://t.co/PAfC0UtEel #spa…",2,0,2014-10-13 15:58:07
+"RT @SARscience: Last @CNES_France zero-g flight with A300. We completed 31 parabolic flights today, around the region of Corsica. http://t.…",17,0,2014-10-09 16:37:56
+"RT @Romain_CHARLES: @Thom_astro Petite pensée pour toi! (cc @side_byside) http://t.co/bDgBCpLIki",3,0,2014-10-09 09:08:43
+"RT @Space_Station: Watch 3D animation preview of first #Exp41 spacewalk planned for Tuesday morning with @astro_reid &amp; @Astro_Alex : http:/…",60,0,2014-10-04 17:25:37
+"RT @PAFofficiel: Bien arrivés au Havre, public aéroport toujours aussi chaleureux! Démo Ste Adresse 15h45. http://t.co/aXogmiutN7",73,0,2014-10-04 11:28:14
+"RT @Brigitte_Ba: Nice read, ping @Thom_astro RT @jvreymondon: The world’s coolest airline pilots http://t.co/IJMpBCFePq http://t.co/FoEQl3L…",3,0,2014-10-02 14:54:52
+"RT @Space_Station: 7 awesome things to know about @astro_reid. http://t.co/nkOjotmfDB http://t.co/jnPBiIjRt0",315,0,2014-10-01 18:00:38
+"RT @CNES_France: Happy 56th birthday @NASA! https://t.co/g07cC9lQim",24,0,2014-10-01 16:20:40
+"RT @flightradar24: We hope @Airbus will post/share some nice pictures from the A350 formation flight soon. http://t.co/jkJxfDqqoj",60,0,2014-09-29 09:26:12
+"RT @Airbus: Let's go! #A350 XWB #specialmission http://t.co/EgeEnw9yRr",286,0,2014-09-29 09:25:39
+"RT @astro_reid: The rings of #Moscow at night - been trying to get this shot for a long time. #success http://t.co/TIxpT6QIRT",3980,0,2014-09-28 15:31:21
+"RT @astro_reid: #CCAM bracelets together and ready to come back home to their owners. http://t.co/sxYdddmbSw",142,0,2014-09-27 13:11:56
+"RT @asc_csa: Suivez #SpaceUpTLS aujourd'hui et demain pour des découvertes spatiales en direct de @CiteEspace!",3,0,2014-09-20 14:57:36
+"RT @NASA: Bolden: The partnership w/ @Boeing &amp; @SpaceX promises to give more people the opportunity to experience the exhilaration of space…",506,0,2014-09-16 20:13:26
+"RT @astro_reid: Morning coffee delivery to @astro_alex – he has the afternoon cappuccino duties. https://t.co/goTtUe18LL",648,0,2014-09-15 19:27:13
+"RT @AFnewsroom: [VIDEO] Venez voir l'expo '#AirFrance, France is in the Air' au @GrandPalaisRmn http://t.co/zOXLe0biPY #AirFranceExpo",7,0,2014-09-12 18:46:37
+"RT @SPACEdotcom: Astronaut All-Stars Will Visit China to Talk Space Cooperation http://t.co/Vwv5OGU04g http://t.co/GQVzi6ztp4",14,0,2014-09-06 19:28:28
+"RT @LiNa8294: @Thom_astro There's stuff on airplanes that NASA helped develop. Whaa? Take a look. http://t.co/2sYKr76nEK http://t.co/6WjqUc…",12,0,2014-09-05 00:23:34
+"RT @vivelesSVT: 100 profs se sont formés au spatial cet été, mais où ? Réponse : http://t.co/l10sVDNefD cc @CNES_France @CiteEspace @cafepe…",9,0,2014-09-02 16:10:59
+"RT @astro_reid: #SpaceVine timelapse - @astro_alex worked the arm and I pushed the “so long” button on #Cygnus https://t.co/akgSb4XkDO",1629,0,2014-09-01 20:40:57
+"RT @CNES_France: #MinuteSpatiale Fin des vacances ! Le moment de saluer le Mont Saint-Michel, vu à 700 km par nos satellites Pléiades http:…",109,0,2014-08-30 15:41:13
+"RT @OlegMKS: Ночь на #МКС см. блог (#ISS at Night HQ blog) http://t.co/MoEuDgwSZP http://t.co/5sgcRrwkVd",150,0,2014-08-30 03:32:23
+"RT @Arianespace: On its way! #Soyuz lifts off on flight to loft two #Galileo satellites for Europe’s global nav system. @EU_Commission @ESA…",53,0,2014-08-22 12:30:45
+"RT @astro_reid: Hold on @BradPaisley, we don't usually like leaks at the launch pad ;)  Here is Florida from the space station. http://t.co…",1168,0,2014-08-16 17:02:18
+"RT @AlainCadix: Classement de #Shanghai : ce classement est aberrant mais c'est celui-là que le monde entier lit. @FrancoisTaddei  http://t…",8,0,2014-08-16 10:40:20
+"RT @CNRS: 12 Français sur les 56 médailles #Fields depuis 1936 : bravo à l’école française de mathématiques",70,0,2014-08-16 10:40:05
+"RT @astro_timpeake: .@Thom_astro Merveilleux! My London flying view is usually just a few hundred feet along the Thames heli lane... http:/…",17,0,2014-08-12 09:33:48
+"RT @NASA: #NEEMO18 aquanauts complete underwater mission. How it benefits spacefarers: http://t.co/omQrxCvD6e   @NASA_NEEMO http://t.co/grp…",353,0,2014-07-31 00:48:54
+"RT @Aki_Hoshide: NEEMO18 Aquarius crew is back on deck. Thanks for all the folks for their outstanding support!! http://t.co/TyZF4ujYmu",12,0,2014-07-29 16:26:59
+"RT @Aki_Hoshide: Bye for now, Aquarius - hope to see you again! http://t.co/2VQR4Hd3QY",28,0,2014-07-29 16:25:24
+"RT @Astro_Jeanette: MD 8: My last dive with Thomas Pesquet. We were so excited, we felt 10 ft tall. BTW he's on my shoulders! @NASA_NEEMO h…",53,0,2014-07-29 01:10:07
+"RT @Aki_Hoshide: On O2 mask for decompression, before we return to the 1 atm surface tomorrow. Just like prebreathe for a space walk! http:…",24,0,2014-07-29 00:20:07
+"RT @NASA_NEEMO: Check us out! We made @NASA_Johnson Instagram! http://t.co/KzbBiejwCj Feeling mighty full of ourselves all of a sudden! #Jo…",11,0,2014-07-28 20:12:50
+"RT @NASA_NEEMO: #NEEMO 16's awesome crew was led by @AstroDot w/ @JAXA_en @Astro_Kimiya &amp; @esa @astro_timpeake &amp; science rock star Dr. Stev…",4,0,2014-07-27 17:52:45
+"RT @LesEchos: Après la restructuration, Air France-KLM met le cap sur la croissance http://t.co/GDm5MrT65X",9,0,2014-07-27 17:51:48
+"RT @Astro_Sabot: Sim of planetary exploration during #NEEMO18.  (Inhabitants with levitating skills closely observing ;) ) http://t.co/q7xG…",31,0,2014-07-27 11:48:55
+"RT @Astro_Jeanette: Mission day 7 and we are still in awe! A barracuda came by to see what was happening in the Aquarius. http://t.co/PNoC9…",65,0,2014-07-27 11:34:11
+"RT @astro_reid: I looked on in awe and was rendered speechless by so much beauty. http://t.co/A4lx07DuIZ",7266,0,2014-07-27 02:19:47
+"RT @astro_reid: Airlines repaint the morning sky. http://t.co/1IyPMOQSJf",2165,0,2014-07-26 17:02:09
+"RT @PAFofficiel: Passage au dessus du @viaduc_millau, ce matin, pour les 10 ans du viaduc. http://t.co/urbO9girwW",66,0,2014-07-26 12:29:17
+"RT @Chief_Astronaut: Nice comparison of #NASA's rockets! MT @NASA_SLS: Meet our new Rocket! http://t.co/YjvCFdcRvP… #SLS #NextGiantLeap htt…",31,0,2014-07-25 22:30:31
+"RT @Astro_Alex: Go underwater #shenanigans09 @thom_astro &amp; @Aki_Hoshide @Astro_Jeanette @Astro_Sabot &amp; the rest of the #NEEMO18 crew! http:…",68,0,2014-07-25 16:59:05
+"RT @Astro_Flow: The #NEEMO18 crew w/greetings @Thom_astro w/peace, @Astro_Sabot w/Vulcan, @Aki_Hoshide w/victory @Astro_Jeanette ?Thx http:…",20,0,2014-07-25 11:38:59
+"RT @NASA_NEEMO: Drill! @Thom_astro &amp; @Astro_Sabot on undersea EVA collecting core samples! Imagine it on another planetary surface! http://…",45,0,2014-07-24 20:26:08
+"RT @Astro_Jeanette: Tomorrow we'll honor the 50th anniversary of SEALAB 1. Congratulations! http://t.co/yTcsIP59Ri",30,0,2014-07-24 00:45:45
+"RT @Aki_Hoshide: Look! Big fish out the window! http://t.co/s6Rr6lNfqR",27,0,2014-07-22 14:56:06
+"RT @OlegMKS: Эльбрус, Северный Кавказ, Россия #МКС см. блог (Mount Elbrus, Russia #ISS HQ blog) #BlueDot http://t.co/R7kLMg8joH http://t.co…",69,0,2014-07-21 02:36:09
+"RT @Astro_Sabot: #NEEMO18 crew familiarizing with the decompression chamber if we have to evacuate Reef Base. http://t.co/HWq07noq3z",11,0,2014-07-19 23:40:07
+"RT @Astro_Sabot: Last Wednesday we had our first helmet dives.  Here's @Astro_Jeanette and I helping @Thom_astro get suited up. http://t.co…",15,0,2014-07-19 15:54:49
+"RT @Aki_Hoshide: Looking for fish? :) @Astro_Sabot &amp; @Thom_astro helping out feeding &amp; taking the umbilical line. http://t.co/0poau7oJJG",12,0,2014-07-18 01:03:38
+"RT @Astro_Jeanette: Selfie from the boat w/ CDR Aki photo bombing! I have the best crew! @Aki_Hoside @Astro_Sabot @Thom_astro http://t.co/k…",24,0,2014-07-17 14:36:55
+"RT @NASA_NEEMO: Ladies &amp; Gents: I give you #NEEMO18 Crew! L2R @Aki_Hoshide @Astro_Jeanette @Thom_astro &amp; @Astro_Sabot Dive Training! http:/…",41,0,2014-07-15 23:14:41
+"RT @AirFranceFR: Construire sa propre fusée? 1 jeu d'enfant avec le #AFMag de juillet #page16 ;-) http://t.co/HDmWJmvbsg @Thom_astro http:/…",21,0,2014-07-15 15:07:28
+"RT @amikokauderer: Talked w #N18 CDR @Aki_Hoshide about 9-day undersea mission Follow the crew @Astro_Sabot @Astro_Jeannette @Thom_astro ht…",2,0,2014-07-14 15:46:40
+"RT @astro_timpeake: “@LiNa8294: Aquanaut Fabien Cousteau set to surface after 31-day marathon undersea mission http://t.co/3mZXD485eC” @Tho…",3,0,2014-07-03 08:21:24
+"RT @Aki_Hoshide: My good friends made this for me with items that went 'outer space' - how cool is that! Thanks for the support! http://t.c…",20,0,2014-06-20 18:40:42
+"RT @AstroKarenN: Love this! MT @OlegMKS: Космический трансформер над #МКС (Space Transformer over #ISS) http://t.co/5OphvtxwuT”",61,0,2014-06-20 15:45:36
+"RT @AirFranceFR: Pratique ! Dès Juillet prochain, profitez du #Wifi gratuit &amp; illimité aux #aéroports de #Paris #CDG et #Orly avec @Aeropor…",82,0,2014-06-19 15:16:09
+"RT @SPACEdotcom: Meet Russia's new cosmonauts. http://t.co/k8PCM5Cq9c http://t.co/vX6RpoXeuw",10,0,2014-06-18 16:14:05
+"RT @ISAE_officiel: Inscriptions ouvertes pour @SpaceUpTLS les 20 et 21 sept. à Toulouse à @CiteEspace : http://t.co/gPTiNkfDh4",2,0,2014-06-17 09:03:01
+"RT @ESA_fr: Ce soir, autour de minuit, la Station spatiale internationale sera visible de chez vous:   http://t.co/7oRv9XMtjb… http://t.co/…",31,0,2014-06-16 19:35:21
+"RT @NASA_NEEMO: SO AWESOME MT @howellspace: Incredible Underwater Shots Of Astronauts Pretending To Be In Space http://t.co/ufr9ckgJyW stor…",15,0,2014-06-13 12:40:07
+"RT @ESA_fr: .@Thom_astro, @Astro_Andreas et @ESAstro_trainer se jettent de nouveau à l'eau cet été ;) http://t.co/jdd62ubrHb http://t.co/rI…",5,0,2014-06-11 09:02:41
+"RT @Chief_Astronaut: Congratulations NEEMO 18: @aki_hoshide @astro_sabot @Thom_astro + Jeanette Epps! http://t.co/N1hEG6LIvJ http://t.co/TV…",39,0,2014-06-11 09:01:43
+"RT @NASA_NEEMO: Follow the NEEMO 18 crew! Cmdr @Aki_Hoshide @Thom_astro @Astro_Sabot &amp; we'll see Jeanette on here soon! Such an internation…",14,0,2014-06-11 08:31:00
+"RT @ESAstro_trainer: L'équipage méconnu de l'#ISS en conférence :-) MT @OlegMKS (meeting weightlessness indicators) http://t.co/rZpqRQKrWG …",18,0,2014-05-30 09:20:11
+"RT @LeMondeFestival: Un portrait de l'astronaute saxophoniste Thomas Pesquet (@Thom_astro photo A.Sperber) http://t.co/vVy8vbpArI http://t.…",28,0,2014-05-29 14:48:27
+"RT @Brigitte_Ba: La #Corse vue depuis la Station spatiale ce 15 mai http://t.co/Qm4419PplW via @PC0101",48,0,2014-05-25 13:36:39
+"RT @esascience: RT @esa: Discover all the ways to #connectwithus on social media  - all on one handy page! http://t.co/ic3KgmGIFw http://t.…",14,0,2014-05-25 13:36:28
+"RT @CNES_Techno: Ils sont à #ActInSpace, lisez-les ! @JeremyBelance @ToniYoussef @briand_antoine @DysLaurent @Nematocera @CentreSpatial_X @…",10,0,2014-05-23 20:03:10
+"RT @CNES_Techno: #ActInSpace va commencer ! Suivez le hashtag jusque demain soir :) http://t.co/cTkuCgaa0s",7,0,2014-05-23 11:09:39
+"RT @NASA_Johnson: Thumbs up from @astro_reid as he and @Astro_Alex, and @Msuraev prep for next week's #Soyuz launch to #ISS. http://t.co/JC…",65,0,2014-05-19 21:21:06
+"RT @Brigitte_Ba: #LeHavre, photographiée depuis la Station spatiale ce 8 mars  http://t.co/GTWPGtFkws via @PC0101 #Normandie",11,0,2014-05-15 23:02:22
+"RT @Brigitte_Ba: #Bordeaux, photographiée depuis la Station spatiale internationale ce 8 mars http://t.co/9ZP60Lk5Bv via @PC0101",15,0,2014-05-15 23:02:12
+"RT @Brigitte_Ba: #Paris, photographiée depuis la Station spatiale ce 8 mars http://t.co/t4lkZNbFwn via @PC0101 (Hi-res: http://t.co/ZWwqHr9…",32,0,2014-05-15 23:02:01
+"RT @kfacciol: The MRO crew at the @csa_asc with instructors and stellar class of @Astro_Jeremy  and @Thom_astro! Great work all!! http://t.…",9,0,2014-05-15 00:45:11
+"RT @TEDvertalers: I learned a lot by translating 'Why we have to believe in space exploration' by @Thom_astro https://t.co/W7ytuCbTIE #TEDx…",4,0,2014-05-09 12:12:09
+"RT @cpamoa: Quatre nouvelles caméras à l'extérieur de l'ISS #HDEV http://t.co/p1N1dTZQSw http://t.co/L2xEMJhLmi",13,0,2014-05-01 18:26:39
+"RT @ESAstro_trainer: Votre expérience en sciences de la vie réalisée dans l'#ISS par @Thom_astro ? C'est possible!  http://t.co/ZPl7HiaG4O …",3,0,2014-05-01 18:25:37
+"RT @laRadioNova: Avant de partir 6 mois à bord de l'ISS à 450 kms de la terre, @Thom_astro a ouvert sa valise http://t.co/6mdYlXREyF http:/…",12,0,2014-04-29 01:31:05
+"RT @ESA_fr: TT @esa Le nom retenu pour la mission vers la Station de l'astronaute danois  @Astro_Andreas en 2015 est... #IrISS http://t.co/…",5,0,2014-04-28 07:34:51
+"RT @Claire_Arnoux: Merci à Cali et @Thom_astro pour leur venue ce matin @EDMWE #supermoment #rugby #musique #espace #nba #bonheur http://t.…",4,0,2014-04-26 16:11:57
+"RT @lemondefr: L'astronaute français @Thom_astro est passé nous voir avant de rejoindre l'espace. http://t.co/wTXh6AwDVx",54,0,2014-04-25 14:35:58
+"RT @NASA: .@AstroRM Steve Swanson &amp; @Astro_Wakata on #ISS greet President Obama during his Japan visit http://t.co/2j4JkoMrxr http://t.co/d…",492,0,2014-04-24 14:24:57
+"RT @Astro_DavidS: Le sas de la SSI, d'où sortiront @AstroRM et Steve Swanson dans environ 15min. http://t.co/FA6z73Dk1z http://t.co/TahZRzv…",3,0,2014-04-23 13:40:21
+"RT @Armee_de_lair: 5 ambassadeurs, une photo! Exceptionnel ! #armeedelair http://t.co/ytQkl1eLJv",257,0,2014-04-17 17:36:28
+"RT @ISS101: Next Dragon Launch Attempt confirmed for Friday - #ISS EVA Rescheduled - http://t.co/Kj3oQLwqRp | Photo: SpaceX http://t.co/pAI…",23,0,2014-04-16 19:25:27
+"RT @pioneer_astro: La société #SpaceX va lancer sa capsule inhabitée #Dragon CRS-3 vers l'#ISS ce soir à 22h58. À voir en direct ici : http…",9,0,2014-04-14 17:46:58
+"RT @esa: How does a sensor for analysing atmosphere of Mars help us to cut greenhouse emissions on Earth? http://t.co/YQwrgdZUbg",19,0,2014-04-14 13:40:27
+"RT @OVTYP: Pour entamer la semaine en beauté, @andremanou reçoit @ChantalLauby ! Notre savant du jour est @Thom_astro ! RDV à 11h05 sur @fr…",1,0,2014-04-14 10:44:57
+"RT @AFP: Energy change is key to meeting UN climate goal, by @marietteleroux http://t.co/6KMTqqxnHs via @YahooNews http://t.co/amq86VcJ5c",41,0,2014-04-13 18:02:25
+"RT @asc_csa: @Jordan_D @Thom_astro La pince-dino c'est bien, mais notre jeu-simulateur du Canadarm2, c'est mieux! http://t.co/MyqyP20sVi",1,0,2014-04-13 16:44:23
+"RT @asc_csa: @Thom_astro Oh! Et voici une meilleure source d'informations sur le Système d'entretien mobile : http://t.co/eFILY2R2la ;)",2,0,2014-04-13 16:42:44
+"RT @ESA_fr: TT @esa 12 avril, Journée internationale du vol spatial habité - Faites le test! (en anglais) http://t.co/aEYhjyMV2y http://t.c…",11,0,2014-04-12 08:15:00
+"RT @Airbus: Follow the leader! The Airbus family during a certification test in 1991 #ThrowbackThursday http://t.co/7A5PUx74oS",109,0,2014-04-10 10:06:18
+"RT @axellelemaire: 'Mesdemoiselles, Mesdames, tous les ingénieurs ne sont pas des hommes', nous dit le Premier ministre  #semainedelindustr…",54,0,2014-04-10 10:05:09
+"RT @LesEchos: Quel est le profil des internautes européens ? &gt;&gt; http://t.co/K89cHtEZQj http://t.co/ErUHqMsrE3",30,0,2014-04-09 12:58:43
+"RT @Spaceappsbdx: Only 10 DAYS to GO!!!!! Make sure to sign up! #‎SpaceApps https://t.co/gbAaLajlik http://t.co/42KLEo4Mgr",9,0,2014-04-02 12:42:32
+"RT @karelleternier: La #NASA appelle au vote! Un grand merci @Thom_astro Interview et sujet à voir tt de suite dans le #19h45 @m6info http:…",4,0,2014-04-02 08:16:56
+"RT @rimkovandermaar: Must see RT @sanwaldinjo Tearing #Europe apart 20 ways to slice a continent from Yanko Tsvetskov's Atlas of Prejudice …",201,0,2014-03-29 14:13:16
+"RT @FragileOasis: Good Moonday! Elba, by the light of a silver moon. #ISS http://t.co/LdtQOaa8nR",44,0,2014-03-24 13:01:24
+"RT @Astro_Andreas: @esaoperations @Thom_astro testing skin-tight #zerog suit http://t.co/eXbd4uHvjc http://t.co/rEkkAINUpj I think @astro_l…",15,0,2014-03-24 08:53:41
+"RT @nasahqphoto: Photo have been posted from the rollout of the #Soyuz TMA-12M spacecraft. #Exp39 #ISS #NASA http://t.co/lzLt1rnWf3",37,0,2014-03-23 13:58:11
+"RT @airandspace: Not a #meteor: Today in 2001, the Mir space station reentered Earth's atmosphere. NASA Mir deorbit animation: http://t.co/…",41,0,2014-03-23 13:56:53
+"RT @AFP: How astronauts survive diplomatic tensions in space http://t.co/dXivi0BRXC",46,0,2014-03-22 06:43:08
+"RT @LiNa8294 @Astro_Andreas Such a romantic young boy... @astro_timpeake @astro_luca @Astro_Alex @astro_reid  http://t.co/KR4qDYzoej",1,7,2014-03-20 13:38:14
+"RT @WilksJeremy: @Thom_astro thanks for the interview time yesterday; here you are: http://t.co/aM8KxBxVPV",6,0,2014-03-19 18:37:15
+"RT @universetoday: How Astronauts Could Survive In The Cold After A Soyuz Landing http://t.co/BG8JW89aD0 http://t.co/4QYAR27Boz",39,0,2014-03-12 14:33:59
+"RT @Astro_Andreas: 7 weeks of Soyuz training with @Thom_astro completed! New video blog looks back at winter survival http://t.co/V8LJJGqIpi",26,0,2014-03-07 17:23:54
+"RT @DFID_UK: What's the hardest setting in the Game of Life? #transformherfuture #infographic #girls #women #IWD2014 http://t.co/2sk42f5QEu",532,0,2014-03-03 15:54:12
+"RT @Brigitte_Ba: Looks like an interesting concept for an @esa astronaut/@AirFranceFR pilot! Happy birthday @Thom_astro! http://t.co/7Gq37o…",4,0,2014-02-27 09:43:50
+"RT @AirFranceFR: Alors, vous pensez quoi de mon #Selfie ;-) ? #AirFrance #AVGeek http://t.co/ijULa5EEkW http://t.co/CG5oiBvHtc",119,0,2014-02-20 18:27:22
+"RT @FranceOlympique: Or, argent, bronze !!!!!! #skicross",903,0,2014-02-20 10:54:06
+"RT @Brigitte_Ba: Superbe! cc @Thom_astro MT @PC0101 #Lyon, France, at night, seen from #ISS, Dec 16, 600-mm http://t.co/ee3RH7egjr http://t…",6,0,2014-02-19 10:57:46
+"RT @spacetihon: Coca Cola museum :) special Coca-Cola cup for space. http://t.co/6qPgC47Uh6",12,0,2014-02-18 09:56:15
+"RT @vr_doug: @astro_timpeake Fantastic SAFER run Tim! Happy to support @esa astros @AstroSamantha @Astro_Alex @astro_luca @astro_andre @Tho…",1,0,2014-02-14 20:37:36
+"RT @Brigitte_Ba: @Thom_astro 1er = Espace, mais je crois que #SpaceUp est officiellemt 2nd comme destination de WE, ex-aequo avec #Socialsp…",1,0,2014-02-14 12:06:12
+"RT @ESA_fr: TT @esascience #MarsExpress observe les conséquences d'impacts violents qui ont donné lieu à des inondations boueuses http://t.…",11,0,2014-02-10 14:52:46
+"RT @cpamoa: [Trad FR] L-295 : Quand @Thom_astro et moi avons survécu à l'hiver russe... par @AstroSamantha http://t.co/C9GhVWdDxn #JournalD…",2,0,2014-02-02 17:33:40
+"RT @AstroSamantha: L-295: Logbook. When we survived the Russian winter with @Thom_astro. https://t.co/m7AZYcQOya #SamLogbook http://t.co/dK…",25,0,2014-02-02 17:31:19
+"RT @SpaceRef: Scientists Discover That Thyroid Cancer Cells Become Less Aggressive in Outer Space http://t.co/33m0wI7Cgv #NASA #ISS",20,0,2014-01-30 16:25:36
+"RT @TEDx: Wanna learn more about outer space? Let this astronaut tell you all about it at @TEDxParis: http://t.co/gRqq8AZvsn",14,0,2014-01-23 13:36:27
+"RT @TEDxParis: Wow ! Le Talk de @thom_astro pour #TEDxPartis 2012 est en home du blog TEDx ! http://t.co/jsfPAw4iJh",5,0,2014-01-23 13:34:33
+"RT @astro_timpeake: Spare a thought for @Astro_Andreas in the cold tonight...or maybe just enjoy pudding instead :) @Thom_astro http://t.co…",9,0,2014-01-21 17:31:48
+"RT @cpamoa: Comment la conquête spatiale a changé notre vie, chouette article sur @LaTribune http://t.co/zDQAcEbsOR (via @COLLET15 )",1,0,2014-01-21 13:09:29
+"RT @ESA_fr: C'est confirmé. Rosetta est réveillée ! Bienvenue ! #WakeUpRosetta",18,0,2014-01-20 18:48:24
+"RT @esa: Pure delight as a signal is received from @ESA_Rosetta in #ESOC Mission Control http://t.co/JGzPT5GZ8R",142,0,2014-01-20 18:47:10
+"RT @CNES_France: Ajd, @ESA_Rosetta doit se réveiller ! Comment cela va-t-il se passer ? Pkoi explorer 1 comète ? Vos questions à Francis Ro…",8,0,2014-01-20 07:58:43
+"RT @fma38: Demain la sonde Rosetta va être réveillée afin de préparer le rendez-vous avec la comète Churyumov-Gerasimenko http://t.co/3yQnc…",19,0,2014-01-19 19:29:17
+"RT @ESA_fr: Bravo pour la vidéo @CNES_France: https://t.co/pZKXwaRkaO. Excellente mise en scène pour #wakeuprosetta!",3,0,2014-01-17 11:05:43
+"RT @AstroMcGill: Want to know more about @ESA_Rosetta's awakening? #WakeUpRosetta Check out this infographics http://t.co/aN6MVqyXdL http:/…",12,0,2014-01-13 15:54:15
+"RT @Globe_Pics: Long exposure of a Boeing 757 taking off http://t.co/jPsREOUK43",1134,0,2014-01-12 22:34:31
+"RT @foreman_mike: Thanks &amp; kudos to the maintenance and ground support folks who keep the NASA aircraft at EFD flying safely http://t.co/16…",66,0,2014-01-09 16:15:49
+"RT @ISS101: Cygnus Orb-1 Mission Overview - http://t.co/RwBHo9sjqL | #ORB1 http://t.co/q7b98TsvSp",16,0,2014-01-08 05:49:07

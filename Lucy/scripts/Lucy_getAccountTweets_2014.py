@@ -77,83 +77,91 @@ f_summary.write(unicode("account, group, totalTweets, totalRetweetedTweets, tota
 #     total number of retweets of the tweets
 #     total number of favorites
 
-
 for group_name in groups:
     group = getGroup(group_name)
     for account in group:
         try: 
             print "PARSING: " + account
-            #pull up to 200 tweets
+            tempGet = t.statuses.user_timeline(screen_name=account,count=1)
+            print tempGet[0]['id']
             throttle("TWEETS")
-            data = t.statuses.user_timeline(screen_name=account, count=200)
+            idList=[]
+            idList.append(tempGet[0]['id'])
+            for i in range(0,16): #iterate 16 times, 200 tweets per iteration
+                #pull up to 200 tweets
+                data = t.statuses.user_timeline(screen_name=account, count=200, max_id = idList[-1])
+                throttle("TWEETS")
+                print "NUMBER OF TWEETS: " + str(i) + ":: " + str(len(data))
 
-            #variables to fux with
-            totalTweets = len(data)
-            totalRetweetedTweets = 0
-            retweetedTweetsAccounts = []
-            totalReplyTweets = 0
-            replyTweetsAccounts = []
-            totalMediaTweets = 0
-            totalRetweets = 0
-            totalFavorites = 0
-            urls = []
-            hashtags = []
+                #variables to fux with
+                totalTweets = len(data)
+                totalRetweetedTweets = 0
+                retweetedTweetsAccounts = []
+                totalReplyTweets = 0
+                replyTweetsAccounts = []
+                totalMediaTweets = 0
+                totalRetweets = 0
+                totalFavorites = 0
+                urls = []
+                hashtags = []
 
-            # file 6: name tweets-- tweet text, # of favorites, # of retweets
-            file6 = "../"+account + '_tweets.csv'
-            f6 = io.open(file6, 'w', encoding='utf8')
-            f6.write(unicode('tweet,retweetsCount,favoritesCount,timestamp\n'))
+                # file 6: name tweets-- tweet text, # of favorites, # of retweets
+                file6 = "../"+account + '_tweets.csv'
+                f6 = io.open(file6, 'w', encoding='utf8')
+                f6.write(unicode('tweet,retweetsCount,favoritesCount,timestamp\n'))
 
-            for tweet in data:
-                #for each tweet
-                tweetDate = datetime.strptime(tweet['created_at'], "%a %b %d %H:%M:%S +0000 %Y")
-                beginDate = datetime(2014,1,1,0,0,0)
-                endDate = datetime(2015,1,1,0,0,0)
-                if ((tweetDate.date() > beginDate.date()) and (tweetDate.date() < endDate.date())):
-                    if tweet["text"][:2]=="RT":
-                        splitting = re.split('@|:',tweet["text"])
-                        totalRetweetedTweets = totalRetweetedTweets + 1 #increment tweets retweeted?
-                        retweetedTweetsAccounts.append(splitting[1]) #add to list of retweeted accounts
-                        #print splitting[1]
-                    if tweet["in_reply_to_screen_name"] != None: 
-                        totalReplyTweets = totalReplyTweets + 1 #increment replies to?
-                        replyTweetsAccounts.append(tweet["in_reply_to_screen_name"]) #add to list of replies
-                    if len(tweet["entities"]) == 5:
-                        totalMediaTweets = totalMediaTweets + 1 #increment media content?
-                    if len(tweet["entities"]["urls"]) > 0:
-                        for url in tweet["entities"]["urls"]:
-                            urls.append(url["expanded_url"]) #add to urls
-                    if len(tweet["entities"]["hashtags"]) > 0:
-                        for hashtag in tweet["entities"]["hashtags"]:
-                            hashtags.append(hashtag["text"]) #add to hashtags       
-                    totalFavorites += tweet["favorite_count"] 
-                    totalRetweets += tweet["retweet_count"]
-                    #output tweets to file
-                    f6.write(unicode('"' + tweet["text"].replace('\n', ' ').replace('"', '\'') + '",' + str(tweet["retweet_count"]) + ',' + str(tweet["favorite_count"]) + ',' + str(tweet['created_at']) + '\n'))
-                    
+                for tweet in data:
+                    idList.append(tweet['id'])
+                    if idList[-1] != idList[-2]:
+                        #for each tweet
+                        tweetDate = datetime.strptime(tweet['created_at'], "%a %b %d %H:%M:%S +0000 %Y")
+                        beginDate = datetime(2015,1,1,0,0,0)
+                        endDate = datetime(2016,1,1,0,0,0)
+                        if ((tweetDate.date() > beginDate.date()) and (tweetDate.date() < endDate.date())):
+                            if tweet["text"][:2]=="RT":
+                                splitting = re.split('@|:',tweet["text"])
+                                totalRetweetedTweets = totalRetweetedTweets + 1 #increment tweets retweeted?
+                                retweetedTweetsAccounts.append(splitting[1]) #add to list of retweeted accounts
+                                #print splitting[1]
+                            if tweet["in_reply_to_screen_name"] != None: 
+                                totalReplyTweets = totalReplyTweets + 1 #increment replies to?
+                                replyTweetsAccounts.append(tweet["in_reply_to_screen_name"]) #add to list of replies
+                            if len(tweet["entities"]) == 5:
+                                totalMediaTweets = totalMediaTweets + 1 #increment media content?
+                            if len(tweet["entities"]["urls"]) > 0:
+                                for url in tweet["entities"]["urls"]:
+                                    urls.append(url["expanded_url"]) #add to urls
+                            if len(tweet["entities"]["hashtags"]) > 0:
+                                for hashtag in tweet["entities"]["hashtags"]:
+                                    hashtags.append(hashtag["text"]) #add to hashtags       
+                            totalFavorites += tweet["favorite_count"] 
+                            totalRetweets += tweet["retweet_count"]
+                            #output tweets to file
+                            f6.write(unicode('"' + tweet["text"].replace('\n', ' ').replace('"', '\'') + '",' + str(tweet["retweet_count"]) + ',' + str(tweet["favorite_count"]) + ',' + str(tweet['created_at']) + '\n'))
+                        
 
-            # file 2: name list of users retweeted
-            file2 = "../"+account + '_users_retweeted.csv'
-            f2 = io.open(file2, 'w', encoding='utf8')
-            for user in retweetedTweetsAccounts:
-                f2.write(unicode(user + '\n'))
-            # file 3: name list of users replied
-            file3 = "../"+account + '_users_replied.csv'
-            f3 = io.open(file3, 'w', encoding='utf8')
-            for user in replyTweetsAccounts:
-                f3.write(unicode(user + '\n'))
-            # file 4: name list of hashtags
-            file4 = "../"+account + '_hashtags.csv'
-            f4 = io.open(file4, 'w', encoding='utf8')
-            for h in hashtags:
-                f4.write(unicode(h + '\n'))
-            # file 5: name list of urls
-            file5 = "../"+account + '_urls.csv'
-            f5 = io.open(file5, 'w', encoding='utf8')
-            for u in urls:
-                f5.write(unicode(u + '\n'))
-            #summary
-            f_summary.write(unicode(account + ',' + group_name + ',' + str(totalTweets) + ',' + str(totalRetweetedTweets) + ',' + str(totalReplyTweets) + ',' + str(totalMediaTweets) + ',' + str(totalRetweets) + ',' + str(totalFavorites) + '\n'))
+                # file 2: name list of users retweeted
+                file2 = "../"+account + '_users_retweeted.csv'
+                f2 = io.open(file2, 'w', encoding='utf8')
+                for user in retweetedTweetsAccounts:
+                    f2.write(unicode(user + '\n'))
+                # file 3: name list of users replied
+                file3 = "../"+account + '_users_replied.csv'
+                f3 = io.open(file3, 'w', encoding='utf8')
+                for user in replyTweetsAccounts:
+                    f3.write(unicode(user + '\n'))
+                # file 4: name list of hashtags
+                file4 = "../"+account + '_hashtags.csv'
+                f4 = io.open(file4, 'w', encoding='utf8')
+                for h in hashtags:
+                    f4.write(unicode(h + '\n'))
+                # file 5: name list of urls
+                file5 = "../"+account + '_urls.csv'
+                f5 = io.open(file5, 'w', encoding='utf8')
+                for u in urls:
+                    f5.write(unicode(u + '\n'))
+                #summary
+                f_summary.write(unicode(account + ',' + group_name + ',' + str(totalTweets) + ',' + str(totalRetweetedTweets) + ',' + str(totalReplyTweets) + ',' + str(totalMediaTweets) + ',' + str(totalRetweets) + ',' + str(totalFavorites) + '\n'))
         except ValueError:
             print account + " FAILED"
 
