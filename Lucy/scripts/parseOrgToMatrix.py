@@ -21,7 +21,7 @@ def getGroup(group_name):
     if group_name == "Roscosmos": return Roscosmos 
     if group_name == "NASA": return NASA 
 
-fout = csv.writer(open("filterCountRetweets.csv", "wb"))
+fout = csv.writer(open("chordMatrixBOTH.csv", "wb"))
 fout.writerow(["has","prefers","count"])
 
 for g in groups:
@@ -33,7 +33,7 @@ for g in groups:
 	# loop through group members:
 	group = getGroup(g)
 	print "now printing: " + g
-	for line in open("../2015data/orgs/" + g + "_retweets.csv"):
+	for line in open("../groupData/" + g + "_retweetsANDreplies.csv"):
 	    #print "line: " + line
 	    fixLine = line.replace("\n", "");
 	    if fixLine in ESA:

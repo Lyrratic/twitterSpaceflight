@@ -13,12 +13,27 @@ def getGroup(group_name):
     if group_name == "Roscosmos": return Roscosmos 
     if group_name == "NASA": return NASA 
 
+'''
 for g in groups:
-	fout=open(g+"_retweets.csv","a")
+	fout=open("../"+g+"_replies.csv","a")
 	# loop through group members:
 	group = getGroup(g)
 	print "now printing: " + g
 	for member in group:
-		for line in open("../2015data/" + member + "_users_retweeted.csv"):
+		for line in open("../1215-415_data/" + member + "_users_replied.csv"):
+		    fout.write(line)
+fout.close()
+'''
+
+# for both retweets and replies:
+for g in groups:
+	fout=open("../"+g+"_retweetsANDreplies.csv","a")
+	# loop through group members:
+	group = getGroup(g)
+	print "now printing: " + g
+	for member in group:
+		for line in open("../1215-415_data/" + member + "_users_replied.csv"):
+		    fout.write(line)
+		for line in open("../1215-415_data/" + member + "_users_retweeted.csv"):
 		    fout.write(line)
 fout.close()
