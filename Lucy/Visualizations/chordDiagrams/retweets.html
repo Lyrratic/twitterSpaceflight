@@ -40,7 +40,7 @@
     </style>
   </head>
   <body>
-    <div id="heading"><h1>Replies and Retweets</h1></div>
+    <div id="heading"><h1>Retweets</h1></div>
     <div id="tooltip"></div>
     <script src="lib/d3.js"></script>
     <script src="lib/underscore.js"></script>
@@ -140,10 +140,10 @@
             var p = d3.format(".2%"), q = d3.format(",.3r")
             return "Chord Info:<br/>"
               + p(d.svalue/d.stotal) + " (" + q(d.svalue) + ") of "
-              + d.sname + " prefer " + d.tname
+              + d.sname + " retweets " + d.tname
               + (d.sname === d.tname ? "": ("<br/>while...<br/>"
               + p(d.tvalue/d.ttotal) + " (" + q(d.tvalue) + ") of "
-              + d.tname + " prefer " + d.sname))
+              + d.tname + " retweets " + d.sname))
           }
 
           function groupTip (d) {
