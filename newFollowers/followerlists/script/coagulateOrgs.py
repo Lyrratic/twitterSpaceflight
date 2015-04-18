@@ -14,14 +14,11 @@ def getGroup(group_name):
     if group_name == "NASA": return NASA 
 
 for g in groups:
-	fout=open("../groupData/"+g+"_allfollowers.csv","a")
-	# loop through group members:
-	group = getGroup(g)
-	print "now printing: " + g
-	for member in group:
-		try:
-			for line in open("../" + member + "_followers.json"):
-			    fout.write(line)
-		except IOError:
-			print member
+    fout=open("../groupData/"+g+"_allfollowers.csv","a")
+    # loop through group members:
+    group = getGroup(g)
+    print "now printing: " + g
+    for member in group:
+        for line in open("../" + member + "_followers.json"):
+            fout.write(line)
 fout.close()

@@ -34,8 +34,8 @@ for group_name in groups:
 	print group_name
 	hashtagsList = []
 	for screen_name in group:
-		HASHTAGS_FILE = screen_name + "_hashtags.csv"
-		f = open("data/kelly_TweetsAnalysisOldMethod/" + HASHTAGS_FILE)
+		HASHTAGS_FILE = "../1215-415_data/"+screen_name + "_hashtags.csv"
+		f = open(HASHTAGS_FILE)
 		lines = f.readlines()
 		f.close()
 		for line in lines:
@@ -61,7 +61,7 @@ for group_name in groups:
 	        return hashtag.__dict__
 	    return hashtag
 
-	HASHTAG_ORGS_FILE = group_name + '_hashtags.js'
+	HASHTAG_ORGS_FILE = "gathered/"+group_name + '_hashtags.js'
 	print HASHTAG_ORGS_FILE
 	f_hashtags = io.open(HASHTAG_ORGS_FILE, 'w', encoding='utf8')
 
