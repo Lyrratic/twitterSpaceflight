@@ -36,37 +36,37 @@ text {
 <script>
 
 var allNames = ['astro_Jfrancois', 'astro_timpeake', 'Thom_astro', 'Astro_Alex', 'AstroSamantha', 'astro_luca', 'astro_andre', 'astro_paolo', 'Astro_Andreas', 'CFuglesang', 'ESA_EAC', 'esa', 'esaoperations', 'Astro_Satoshi', 'Astro_Wakata', 'Astro_Soichi', 'Astro_Kimiya', 'JAXA_en', 'Aki_Hoshide', 'csa_asc', 'asc_csa', 'Astro_Jeremy', 'Astro_DavidS', 'AstroDaveMD', 'Cmdr_Hadfield', 'RobertaBondar', 'RobertThirsk', 'AstroGarneau', 'fka_roscosmos', 'spacetihon', 'OlegMKS', 'Msuraev', 'AntonAstrey', 'NASA', 'NASA_Astronauts', 'NASAPeople', 'AstroClass2013', 'SciAstro', 'Astro_Flow', 'Astro_Cady', 'Astro_Ferg', 'AstroCoastie', 'astro_Pettit', 'AstroDot', 'Astro_Wheels', 'Astro_Doug', 'Astro_Taz', 'Astro_Box', 'Astro2fish', 'Astro_Jeff', 'AstroAcaba', 'AstroKarenN', 'Astro_Kate7', 'astro_kjell', 'Astro_127', 'AstroIronMike', 'foreman_mike', 'astro_aggie', 'AstroIllini', 'Astro_Mike', 'Astro_Nicholas', 'Astro_Nicole', 'astro_reid', 'Astro_Rex', 'AstroRM', 'Astro_Ron', 'Astro_Sandy', 'AstroSerena', 'StationCDRKelly', 'Astro_Maker', 'Astro_Suni', 'AstroTerry', 'astro_tim', 'AstroMarshburn', 'Astro_TJ', 'Chief_Astronaut', 'Commercial_Crew', 'DESERT_RATS', 'HMP', 'ISS_Research', 'NASAMightyEagle', 'NASA_NEEMO', 'NASA_Orion', 'PavilionLake', 'MorpheusLander', 'AstroRobonaut', 'NASA_SLS', 'Astro_Clay']
-var allFollowing = [1302, 38653, 20445, 201772, 361349, 158769, 379789, 96488, 19897, 11503, 3926, 343119, 119305, 102971, 120236, 505158, 20383, 47059, 64728, 173991, 4030, 35249, 20393, 8952, 1285194, 876, 523, 68, 18318, 2045, 23659, 14020, 24904, 8981197, 346522, 4543, 7726, 22560, 62287, 55915, 26414, 10999, 18109, 13973, 120475, 15031, 11915, 29745, 16937, 19098, 21905, 107195, 4883, 11301, 43635, 31185, 16272, 40626, 66973, 1310015, 14834, 149125, 367672, 16171, 73810, 119177, 43815, 4134, 62850, 10156, 35616, 117401, 22235, 43834, 45883, 12780, 27916, 50704, 1065, 189610, 744, 20139, 172821, 691, 12740, 68686, 23038, 41471]
+var allTweets = [3, 260, 225, 101, 1163, 671, 452, 42, 188, 91, 8, 2212, 1148, 89, 42, 94, 229, 56, 183, 1444, 691, 66, 132, 303, 522, 23, 19, 0, 127, 11, 159, 0, 101, 1872, 828, 279, 0, 87, 664, 480, 11, 0, 7, 84, 498, 0, 0, 16, 2, 0, 0, 34, 0, 24, 0, 14, 102, 107, 7, 132, 0, 119, 196, 3, 0, 617, 270, 0, 100, 19, 0, 533, 13, 0, 68, 99, 129, 3, 8, 1282, 0, 8, 362, 0, 23, 27, 404, 2784]
 
 var width = 1060, height = 800;
 var color = d3.scale.category20();
 var origSize = 0;
 
 function getSize(num){
-  if (num>3000000) {
+  if (num>2700) {
     return 22
-  } else if (num>2000000) {
+  } else if (num>2400) {
     return 20
-  } else if (num>1000000) {
+  } else if (num>2100) {
     return 18
-  } else if (num>500000) {
+  } else if (num>1800) {
     return 16
-  } else if (num>250000) {
+  } else if (num>1500) {
     return 14
-  } else if (num>100000) {
+  } else if (num>1200) {
     return 12
-  } else if (num>50000) {
+  } else if (num>900) {
     return 10
-  } else if (num>10000) {
+  } else if (num>600) {
     return 8
-  } else if (num>1000) {
+  } else if (num>300) {
     return 6
   } else {
     return 4
   } 
 }
 
-d3.json("nodeLink_followers.json", function(error, graph) {
+d3.json("replies_retweets.json", function(error, graph) {
   var links = graph.links
   var nodes = graph.nodes
 
@@ -76,7 +76,7 @@ d3.json("nodeLink_followers.json", function(error, graph) {
       .size([width, height])
       .gravity(.05)
       .charge(-240)
-      .linkDistance(320)
+      .linkDistance(220)
       .on("tick", tick)
       .start();
 
@@ -102,7 +102,7 @@ d3.json("nodeLink_followers.json", function(error, graph) {
   node.append("circle")
       .attr("r", function(d){
         var i = allNames.indexOf(d.name)
-        return getSize(allFollowing[i])
+        return getSize(allTweets[i])
       })
       .style("fill", function(d) { return color(d.group); })
 

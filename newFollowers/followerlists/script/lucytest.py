@@ -1,4 +1,3 @@
-import time
 import io
 import tweepy
 import csv
@@ -35,6 +34,7 @@ for g in groups:
 	allUsers = []
 	# loop through group members:
 	group = getGroup(g)
+	# the file below is missing because it's too large for github
 	allUsers.extend(line.strip() for line in open("../groupData/"+g+'_allfollowers.csv'))
 
 	print len(allUsers)
