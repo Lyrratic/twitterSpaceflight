@@ -87,7 +87,9 @@ d3.json("nodeLink_followers.json", function(error, graph) {
   var link = svg.selectAll(".link")
       .data(force.links())
       .enter().append("line")
-      .attr("class", "link");
+      .attr("class", "link")
+      .attr('stroke', 'gray')
+      .attr("stroke-width", function(d) { return d.value; });
 
   var node = svg.selectAll(".node")
       .data(force.nodes())
@@ -120,18 +122,14 @@ d3.json("nodeLink_followers.json", function(error, graph) {
   var numLinksByIndex = {};
   graph.links.forEach(function(d) {
     numLinksByIndex[d.source.index + "," + d.target.index] = d.value;
-    // console.log(d.value);
   });
-  // console.log(numLinksByIndex);
 
   function isConnected(a, b) {
-    // console.log("linking " + a + " and " + b + " gets " + linkedByIndex[a.index + "," + b.index] + " and " + linkedByIndex[b.index + "," + a.index])
     return linkedByIndex[a.index + "," + b.index] || linkedByIndex[b.index + "," + a.index] || a.index == b.index;
   }
 
   function getLinkNum(a,b) {
     if (isConnected(a,b)) {
-      // console.log("linking " + a + " and " + b + " gets " + numLinksByIndex[a.index + "," + b.index] + " and " + numLinksByIndex[b.index + "," + a.index])
       var forward = numLinksByIndex[a.index + "," + b.index];
       var backward = numLinksByIndex[b.index + "," + a.index];
       var fout = (forward !== undefined) ? forward : 0;
@@ -152,12 +150,12 @@ d3.json("nodeLink_followers.json", function(error, graph) {
         return thisOpacity;
       });
 
-      // node.select(".link").style("stroke-width", function(o) {
-      //   strWidth = getLinkNum(d,o);
-      //   this.setAttribute('stroke-width',strWidth+"px");
-      //   console.log(strWidth+"px");
-      //   return strWidth+"px";
-      // });
+      node.style("stroke-width", function(o) {
+        strWidth = getLinkNum(d,o);
+        this.setAttribute('stroke-width',strWidth+"px");
+        console.log(strWidth+"px");
+        return strWidth+"px";
+      });
 
       node.select("text").style("opacity", function(o) {
         thisOpacity = ((opacity===.1)&&isConnected(d,o)) ? 1 : 0;
@@ -182,27 +180,27 @@ d3.json("nodeLink_followers.json", function(error, graph) {
         .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
   }
 
-  function mouseover() {
-    console.log("mouseovering");
-    // d3.select(this).select("circle").transition()
-    //     .duration(750)
-    //     .attr("r", 24);
-    d3.select(this).select("text").transition()
-      .duration(350)
-      // .attr("z-index",-1)
-      .attr("opacity", 100);
-  }
+  // function mouseover() {
+  //   console.log("mouseovering");
+  //   // d3.select(this).select("circle").transition()
+  //   //     .duration(750)
+  //   //     .attr("r", 24);
+  //   d3.select(this).select("text").transition()
+  //     .duration(350)
+  //     // .attr("z-index",-1)
+  //     .attr("opacity", 100);
+  // }
 
-  function mouseout() {
-    console.log("mouseouting");
-    // d3.select(this).select("circle").transition()
-    //     .duration(750)
-    //     .attr("r", 8);
-    d3.select(this).select("text").transition()
-        .duration(350)
-        // .attr("z-index",1)
-        .attr("opacity", 0);
-  }
+  // function mouseout() {
+  //   console.log("mouseouting");
+  //   // d3.select(this).select("circle").transition()
+  //   //     .duration(750)
+  //   //     .attr("r", 8);
+  //   d3.select(this).select("text").transition()
+  //       .duration(350)
+  //       // .attr("z-index",1)
+  //       .attr("opacity", 0);
+  // }
 
 });
 

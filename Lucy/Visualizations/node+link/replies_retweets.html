@@ -66,6 +66,20 @@ function getSize(num){
   } 
 }
 
+function linkThick(num){
+  if (num>100) {
+    return 2.5
+  } else if (num>75) {
+    return 2.0
+  } else if (num>50) {
+    return 1.5
+  } else if (num>25) {
+    return 1.0
+  } else {
+    return 0.5
+  }
+}
+
 d3.json("replies_retweets.json", function(error, graph) {
   var links = graph.links
   var nodes = graph.nodes
@@ -87,7 +101,9 @@ d3.json("replies_retweets.json", function(error, graph) {
   var link = svg.selectAll(".link")
       .data(force.links())
       .enter().append("line")
-      .attr("class", "link");
+      .attr("class", "link")
+      .attr('stroke', 'gray')
+      .attr("stroke-width", function(d) { return linkThick(d.value); });
 
   var node = svg.selectAll(".node")
       .data(force.nodes())

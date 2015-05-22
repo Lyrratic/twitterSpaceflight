@@ -72,7 +72,8 @@ for groupName in groups:
 		link = Link(groupName + "." + account, 0, [])
 		links.append(link)
 
-f = open('_allAccounts-links-followEachOther.csv')
+# f = open('_allAccounts-links-followEachOther.csv')
+f = open('followerLinks.csv')
 # f = open('test2.csv')
 lines = f.readlines()
 f.close()
